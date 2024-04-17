@@ -12,3 +12,4 @@ C:\Users\guize\Desktop\Programas\banco-interface\obj\Debug\net8.0\refint\banco-i
 C:\Users\guize\Desktop\Programas\banco-interface\obj\Debug\net8.0\banco-interface.pdb
 C:\Users\guize\Desktop\Programas\banco-interface\obj\Debug\net8.0\banco-interface.genruntimeconfig.cache
 C:\Users\guize\Desktop\Programas\banco-interface\obj\Debug\net8.0\ref\banco-interface.dll
+C:\Users\guize\Desktop\Programas\banco-interface\obj\Debug\net8.0\banco-interface.sourcelink.json
