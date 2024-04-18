@@ -13,6 +13,7 @@ public class ContaBancaria : IContaBancaria
     {
        Sacar(valor);
        contaDestino.Depositar(valor); 
+       Saldo -= valor;
     }
 
     public void Depositar(decimal valor)

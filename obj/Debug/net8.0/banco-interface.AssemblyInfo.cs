@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("banco-interface")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2f75516ec91aee14cce7eb3d27641587956262a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6814cdea8e53a495427a9de0dc51787a6a4ff219")]
 [assembly: System.Reflection.AssemblyProductAttribute("banco-interface")]
 [assembly: System.Reflection.AssemblyTitleAttribute("banco-interface")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

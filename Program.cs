@@ -46,29 +46,16 @@
 // contaP.ExibirDetalhes();
 
 
-static void ProcessarTransacao(IContaBancaria conta, decimal valor, string tipo)
-{
-    if (tipo == "Deposito")
-        {
-            conta.Depositar(valor);
-        }
-        else if (tipo == "Saque")
-        {
-            conta.Sacar(valor);
-        }
-        else
-        {
-            Console.WriteLine("Tipo de transação inválido.");
-        }
-    }
+Funcoes f = new Funcoes();
 
 ContaCorrente contaC = new ContaCorrente(1234);
 ContaPoupanca contaP = new ContaPoupanca(5678);
 
-ProcessarTransacao(contaC,1000, "Deposito");
-ProcessarTransacao(contaP,1000, "Deposito");
-ProcessarTransacao(contaC,1000, "Saque");
-ProcessarTransacao(contaP,1000, "Saque");
+f.ProcessarTransacao(contaC,1000, "Deposito");
+f.ProcessarTransacao(contaP,1000, "Deposito");
+f.ProcessarTransacao(contaC,200, "Deposito");
+f.ProcessarTransacao(contaP,300, "Deposito");
+contaC.TransacaoConta(contaP,200);
 
 Console.WriteLine("Detalhes das transações e saldos:");
 System.Console.WriteLine("Conta Corrente:");
